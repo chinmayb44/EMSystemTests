@@ -19,10 +19,10 @@ public class ExpenseManagerSystemTest {
 		//Thread.sleep(600000);
 
 		//Buggy Code
-		String expectedTitle = "Hello Page";
+		//String expectedTitle = "Hello Page";
 		
 		//Correct Code
-		//String expectedTitle = "Login page";
+		String expectedTitle = "Login page";
 		
 		String actualTitle = driver.getTitle();
 		assertEquals(expectedTitle, actualTitle);
